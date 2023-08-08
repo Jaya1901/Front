@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+   <body>
+    <style>
+      
+        .container1 {
+          margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          height: 50px;
+          width: 300px; 
+          color: black;
+          background: white;
+          border: 1px solid burlywood;
+          height: 40px;
+          border-radius: 8px;
+        }
+        .radio{
+            margin-top:-15% ;
+            margin-left: -1%;
+         color: darkgreen;
+        }
+       
+       
+        h5, h4, h3{
+            color:black;
+
+        }
+        h5{
+            margin-top:-0.4%;
+            padding: 0px 5px;
+            margin-left: 10%;
+
+        }
+        h4{
+            margin-top: -5%;
+            margin-left: 10%;
+
+        }
+        h3{
+            margin-top: -20%;
+            margin-bottom: 8%;
+            margin-left: 60%;
+
+        }
+         
+        
+        .container2 {
+            margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          height: 50px;
+          width: 300px; 
+          color: rgb(17, 16, 17);
+          background: white;
+          border: 1px solid darkred;
+          height: 150px;
+          border-radius: 8px;
+
+        }
+        .drop{
+            font-weight: bold;
+        }
+        .h6{
+            color:darkgreen;
+            margin-top: -6%;
+            margin-left: 60%;
+        }
+        .drop1{
+            margin-top: -26%;
+            margin-left: 20%;
+        }
+        .drop2{
+            margin-top:-6%;
+            margin-left: 60%;  
+        }
+        .drop3{
+            margin-top:5%;
+            margin-left: 20%;  
+        }  
+        .drop4{
+            margin-top:-6%;
+            margin-left: 60%;    
+        }
+        .lab{
+        color:black ;
+        }
+        
+        h6{
+            margin-top:-18% ;
+            margin-left: 60%;
+        }
+        h5{
+           
+            margin-left: 5%;
+        }
+        .tot{
+            color: black;
+        }
+        p{
+            margin-left: 1%;
+            color: darkgreen;
+        }
+
+       
+        
+
+         
+       
+        .container3 {
+            margin: 10px;
+          padding: 10px;
+          font-size: 18px;
+          height: 50px;
+          width: 300px; 
+          color: darkgreen;
+          background: white;
+          border: 1px solid darkgreen;
+          height: 40px;
+          border-radius: 8px;
+        }
+        .radio2{
+            margin-top:-3.8% ;
+            margin-left: 1%;
+            color: darkgreen;
+        }
+         
+       
+       
+        .Text{
+            margin-left: 8%;
+            color:darkgreen ;
+             font-weight: bold;
+        }
+        .button {
+  border: none;
+  color: white;
+  padding: 18px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color:  rgb(5, 55, 5) ;
+  width: 330px;
+  height: 20px;
+  margin-left:0.3%;
+  margin-top: 0.5%;
+  border-radius: 8px;
+  
+        }
+        </style>
+        <div class="Text">Bundle & Save
+            <hr style="width:5%;
+            text-align:left;
+            margin-left:-5.1%;
+            margin-top: -0.8%;
+            color: darkgreen;"> 
+             <hr style="width:5%;
+             text-align:left;
+             margin-left:11%;
+             margin-top: -0.7%;
+             color: darkgreen;"> 
+        </div>
+         
+       
+        <div class=" container1">
+            <h5>1 pair</h5>
+            <h4>DKK 195.00</h5>
+            <h3>50% OFF</h3>
+            <div class="radio">
+                <input id="radio-1" name="radio" type="radio" checked>
+                <label for="radio-1" class="radio-label"></label>
+              </div>
+            
+          
+        </div>
+        
+         
+        
+        <div class="container2">
+            <div class="drop">
+            <h5>2 pair</h5>
+            <h4>DKK 345.00</h5>
+            <h3>40% OFF</h3>
+            <h6>Most Popular</h6>
+        </div>
+        <div class="radio1">
+            <input id="radio-1" name="radio" type="radio" checked>
+            <label for="radio-1" class="radio-label"></label>
+          </div>
+        
+
+            <div class="lab">   
+            <h5>size</h5>
+            <h6>color</h6>
+            </div>
+            <div class="num">
+                <p>#1</p>
+                <p>#2</p>
+            </div>
+            
+
+    <div class="drop1">       
+  <select name="cars" id="cars">
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+</div> 
+<div class="drop2">  
+ 
+  <select name="cars" id="cars">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Blue">Blue</option>
+  </select>
+</div> 
+  
+    
+
+            
+<div class="drop3">        
+  <select name="cars" id="cars">
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+</div>
+<div class="drop4"> 
+  
+  <select name="cars" id="cars">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Blue">Blue</option>
+  </select>
+</div>
+  </div>
+            
+        </div>
+         
+       
+        <div class=" container3">
+            <h5>3 pair</h5>
+            <h4>DKK 528.00</h5>
+            <h3>60% OFF</h3>
+            
+        </div>
+        <div class="radio2">
+            <input id="radio-1" name="radio" type="radio" checked>
+            <label for="radio-1" class="radio-label"></label>
+          </div>
+        <div class="tot">
+            <p>Free two day shipping</p>
+            <p>Total:DKK 360.00</p>
+        </div>
+        <button class="button ">+Add to cart</button>
+   </body>
+</html>
